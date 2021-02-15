@@ -46,8 +46,7 @@ def main():
     if not os.path.exists(wps_path):
         deco("WPS Office is either not installed or you have a different version.\nPlease note that this script will only work with the FLATPAK version of WPS-Office.\nRun: flatpak install com.wps.Office", top=False)
     else:
-        input("Press \"Enter\" to download the themes (Ctrl+C to cancel)...")
-        print("Downloading...")
+        
         
 
 # Run #
